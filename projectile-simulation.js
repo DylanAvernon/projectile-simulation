@@ -1,5 +1,5 @@
-import { Simulation } from '../components/simulation.js';
-import { Ball } from '../components/ball.js';
+import { Simulation } from './components/simulation.js';
+import { Ball } from './components/ball.js';
 let projectStructure = {
     id: 'particle-motion-simulation',
     title: 'Particle Motion Simulation',
