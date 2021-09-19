@@ -1,3 +1,24 @@
+body {
+    height: 100%;
+}
+h2 {
+    width: 517px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+}
+#projects {
+    display: flex;
+}
+.navigation-bar {
+    width: 500px;
+}
 button {
     margin-bottom: 10px;
     margin-top: 10px;
