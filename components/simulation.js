@@ -7,14 +7,14 @@ class Simulation {
         // Create project div
         this.element = document.createElement('div');
         this.element.id = structure.id;
-        this.element.className = 'project';
+        this.element.className = 'simulation';
 
         // Create project header
-        this.header2 = document.createElement('h2');
-        this.header2.id = `${this.element.id}-header2`;
-        this.header2.className = 'project-header';
-        this.header2.textContent = structure.title;
-        this.element.appendChild(this.header2);
+        this.header3 = document.createElement('h3');
+        this.header3.id = `${this.element.id}-header3`;
+        this.header3.className = 'simulation-header';
+        this.header3.textContent = structure.title;
+        this.element.appendChild(this.header3);
 
         // Create navigation bar
         this.navigationBar = new NavigationBar(this.element.id, this.buttons);
